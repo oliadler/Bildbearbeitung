@@ -18,7 +18,6 @@ public class BildbearbeitungTest {
 
         // Ergebnis wird ausgegeben.
         bild.ausgabe();
-
         System.out.println();
         
          // Initialiserung von array2

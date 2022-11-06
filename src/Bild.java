@@ -7,10 +7,19 @@ public class Bild{
      
     // Setter für das array bildelemente.
      public void setbildelemente(int[][] newbildelemente){
-        bildelemente = newbildelemente;
-     }
 
-     
+        // Ueberprüfung, ob newbildelemente eventuell leer ist.
+        if (newbildelemente == null || newbildelemente.length == 0)
+        {
+            System.out.println("Das Array ist leer.");
+            System.exit(0);
+        }
+        else
+        {
+            bildelemente = newbildelemente;
+        }
+        
+     }
 
 
      public void flipAndInvert(){
