@@ -22,7 +22,7 @@ public class Bild{
      }
 
 
-     public void flipAndInvert(){
+     public Bild flipAndInvert(){
 
         // Invertieren, das heißt 1 wird zur 0 und 0 wird zur 1.
 
@@ -40,7 +40,7 @@ public class Bild{
         }
 
 
-        // flipen beziehungsweise auf den Kopf stellen.
+        // flippen beziehungsweise auf den Kopf stellen.
 
             int counter = 0;
             int [][] tempbildelemente = new int[bildelemente.length][bildelemente[0].length];
@@ -61,6 +61,8 @@ public class Bild{
                     bildelemente[i][j] = tempbildelemente[i][j];
                 }
             }
+
+            return this;
      }
 
 
