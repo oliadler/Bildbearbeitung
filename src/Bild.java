@@ -40,7 +40,7 @@ public class Bild{
         }
 
 
-        // flipen beziehungsweise auf den Kopf stellen.
+        // flippen beziehungsweise auf den Kopf stellen. Ich flippe aus, wenn du flippen noch1mal mit nur einem p schreibst.
 
             int counter = 0;
             int [][] tempbildelemente = new int[bildelemente.length][bildelemente[0].length];
